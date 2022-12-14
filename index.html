@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <button class="col-picker" id="color-picker">
+
+                </button>
+                <div class="color-selector" id="color-selector">
+                    <form action="#">
+                    <select name="menu" id="menu">
+                        <option value="monochrome" selected>Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                    </form>
+                </div>
+                <button id="get-btn">Get color scheme</button>
+            </div>
+
+            <div class="main">
+                <div class="col" id="col--0"></div>
+                <div class="col" id="col--1"></div>
+                <div class="col" id="col--2"></div>
+                <div class="col" id="col--3"></div>
+                <div class="col" id="col--4"></div>
+                <div class="col-id" id="col-id--0">#126123</div>
+                <div class="col-id" id="col-id--1">#126123</div>
+                <div class="col-id" id="col-id--2">#126123</div>
+                <div class="col-id" id="col-id--3">#126123</div>
+                <div class="col-id" id="col-id--4">#126123</div>
+            </div>
+        </div> <!-- /wrapper -->
+
+        <script src="index.js"></script>
+    </body>
+</html>
