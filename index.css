@@ -18,16 +18,15 @@ html, body {
 }
 
 #color-picker {
-    background: red;
-    border: 5px solid #e5e5e5;
+    background: #e5e5e5;
+    border: 0;
     margin: 1rem;
     width: 5rem;
     height: 2.5rem;
     transition: .3s;
 }
 
-#color-picker:hover,
-#color-picker:focus {
+#color-picker:hover {
     background: lightgrey;
     cursor: pointer;
 }
@@ -55,8 +54,7 @@ html, body {
     transition: .3s;
 }
 
-#get-btn:hover,
-#get-btn:focus {
+#get-btn:hover {
     background: lightgrey;
     cursor: pointer;
 }
@@ -82,32 +80,4 @@ html, body {
     color: #2b283a;
     font-weight: 500;
     font-size: .75rem;
-}
-
-#col-id--1,
-#col-id--2,
-#col-id--3,
-#col-id--4,
-#col-id--5 {
-    
-}
-
-#col--1 {
-    /* background: blue; */
-}
-
-#col--2 {
-    /* background: red; */
-}
-
-#col--3 {
-    /* background: magenta; */
-}
-
-#col--4 {
-    /* background: limegreen; */
-}
-
-#col--5 {
-    /* background: cyan; */
 }
